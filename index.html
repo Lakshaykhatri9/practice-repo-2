@@ -22,7 +22,7 @@
             </div>
 
              <!-- phone navbar starts here -->
-            <div class="hamburger-bar z-10 md:hidden h-6 w-8 cursor-pointer">
+            <div class="hamburger-bar right-10 z-50 md:hidden h-6 w-8 cursor-pointer">
                 <div class="line-1 w-full h-1 bg-[#00b289]"></div>
                 <div class="line-2 w-full h-1 bg-[#00b289] my-2"></div>
                 <div class="line-3 w-full h-1 bg-[#00b289]"></div>
@@ -94,7 +94,7 @@
                 </span>
         </div>
   
-        <div class="lg:80 h-fit relative p-6 lg:p-12 text-[#4c4d5f] border-2 bg-white rounded-md border-gray-300 overflow-hidden lg:w-[28rem]">
+        <div class="lg:80 h-fit relative p-6 lg:p-12 text-[#4c4d5f] border-2 bg-white rounded-md border-gray-300 overflow-hidden lg:w-[28rem] -z-10">
             <p class="uppercase text-white font-bold text-sm rotate-[47deg] w-48 text-center h-10 bg-[#00b289] absolute top-8 -right-13 content-center">most popular</p>
             <h1 class="text-lg md:text-xl lg:text-2xl font-semibold my-1 md:my-3 lg:my-5">Workflow Plus</h1>
             <h2 class="border-b-2 font-semibold pb-5 border-[#00b289] text-lg lg:text-xl"><span>$</span><span class="lg:text-5xl md:text-3xl text-2xl mr-3">29</span>/MONTH</h2>
@@ -110,7 +110,7 @@
                     <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Priority Support</li>
                 </ul>
                 </div>
-                <span class="flex justify-center bg-[#00b289] text-white p-4 text-xs">
+                <span class="flex justify-center bg-[#00b289] text-white p-4 text-xs hover:translate-1.5 duration-200">
                     <button class="uppercase">Start Free</button>
                 </span>
     </section>
@@ -124,35 +124,61 @@
 
         <div class="flex justify-center items-center">
         <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
-          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Collaborators</p> <p class="text-sm md:text-lg">Invite other users for full account access and functionality.</p> </span>
-          <span class="text-sm mr-3 sm:mr-0 lg:text-2xl text-black">Free</span>
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl mb-2">Collaborators</p> <p class="text-xs md:text-lg">Invite other users for full account access and functionality.</p> </span>
+          <span class="text-sm sm:mr-0 lg:text-2xl text-black">Free</span>
         </div>
 </div>
 
   <div class="flex justify-center items-center">
         <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
-          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Partners</p> <p class="text-sm md:text-lg">Invite other users for full account access and company management.</p> </span>
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl mb-2">Partners</p> <p class="text-xs md:text-lg">Invite other users for full account access and company management.</p> </span>
           <span class="text-sm lg:text-2xl text-black">$9 /Month</span>
         </div>
 </div>
 
   <div class="flex justify-center items-center">
         <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
-          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Bonsai Tax</p> <p class="text-sm md:text-lg">Track expenses, identify write-offs, and estimate quarters taxes easily.</p> </span>
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl mb-2">Bonsai Tax</p> <p class="text-xs md:text-lg">Track expenses, identify write-offs, and estimate quarters taxes easily.</p> </span>
           <span class="text-sm lg:text-2xl text-black">$10 /Month</span>
         </div>
 </div>
     </section>
 
 
-    <section class="flex justify-center items-center mt-18 md:mt-20 lg:mt-28 ">
-        <div class="flex justify-between items-center w-[60vw] bg-[#56b7dd22] lg:p-8 rounded-md">
-        <div>
-        <h1>It's your business.</h1>
-        <h1>We're here to help it grow.</h1>
+    <section class="flex justify-center items-center mt-18 md:mt-20 lg:mt-28">
+        <div class="flex justify-between items-center flex-wrap h-[30vh] w-[80vw] bg-[#56b7dd22] lg:p-8 rounded-md">
+        <div class="p-4">
+        <h1 class="text-lg md:text-2xl lg:text-3xl lg:my-3">It's your business.</h1>
+        <h1 class="text-lg md:text-2xl lg:text-3xl lg:my-3">We're here to help it grow.</h1>
         </div>
 
-        <button class="bg-[#00b289] text-white p-4 text-xs rounded-md cursor-pointer">Start Free</button>
+        <button class="mx-4 bg-[#00b289] text-white text-xs lg:px-12 px-4 py-4 md:text-sm rounded-md cursor-pointer hover:translate-1.5 duration-200">Start Free</button>
+        </div>
+    </section>
+
+    <p class="capitalize font-light text-center my-5 lg:my-14 text-[#00b289] lg:text-3xl">Frequently asked questions</p>
+
+    <section class="flex justify-center items-center">
+        <div>
+        <div class="bg-white p-5 rounded-md w-[60vw] flex justify-between items-center cursor-pointer hover:translate-1.5 duration-200 my-3">
+            <h1 class="lg:text-2xl font-light">How does the 14 day free trial work?</h1>
+            <i class="fa-solid fa-angle-down text-gray-400"></i>
+        </div>
+
+          <div class="bg-white p-5 rounded-md w-[60vw] flex justify-between items-center cursor-pointer hover:translate-1.5 duration-200 my-3">
+            <h1 class="lg:text-2xl font-light">How does the 14 day free trial work?</h1>
+            <i class="fa-solid fa-angle-down text-gray-400"></i>
+        </div>
+
+          <div class="bg-white p-5 rounded-md w-[60vw] flex justify-between items-center cursor-pointer hover:translate-1.5 duration-200 my-3">
+            <h1 class="lg:text-2xl font-light">How does the 14 day free trial work?</h1>
+            <i class="fa-solid fa-angle-down text-gray-400"></i>
+        </div>
+
+        <div class="bg-white p-5 rounded-md w-[60vw] flex justify-between items-center cursor-pointer hover:translate-1.5 duration-200 my-3">
+            <h1 class="lg:text-2xl font-light">How does the 14 day free trial work?</h1>
+            <i class="fa-solid fa-angle-down text-gray-400"></i>
+        </div>
         </div>
     </section>
 
