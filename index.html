@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="images/logo-img.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#f9f9f9]">
+    <header>
+        <nav class="p-8 lg:px-20 flex items-center justify-between">
+            <div class="logo-div flex items-center justify-center space-x-2">
+                <img src="images/logo-img.png" alt="logo" class="w-fit h-fit">
+                <h1 class="text-2xl lg:text-3xl font-semibold text-[#00b289]">bonsai</h1>
+            </div>
+
+             <!-- phone navbar starts here -->
+            <div class="hamburger-bar z-10 md:hidden h-6 w-8 cursor-pointer">
+                <div class="line-1 w-full h-1 bg-[#00b289]"></div>
+                <div class="line-2 w-full h-1 bg-[#00b289] my-2"></div>
+                <div class="line-3 w-full h-1 bg-[#00b289]"></div>
+            </div>
+           
+            <ul class="navbar md:hidden h-full bg-blue-100 w-[50%] px-5 space-y-4 text-[#4c4d5f] font-semibold">
+                <li class="mt-20 text-sm">Product <i class="fa-solid fa-angle-down"></i></li>
+                <li class="text-sm">Templates <i class="fa-solid fa-angle-down"></i></li>
+                <li class="text-sm">Pricing</li>
+                <li class="text-sm">Reviews</li>
+
+                <div class="btns space-y-3">
+               <button class="uppercase bg-white border border-[#00b289] p-3 text-sm rounded-sm  cursor-pointer hover:translate-1.5 duration-200">Login</button> <br>
+                <button class="bg-[#00b289] text-white p-3 text-sm rounded-sm hover:bg-[#00a57a] uppercase cursor-pointer hover:translate-1.5 duration-200">Start Free</button>
+                </div>
+            </ul>
+            <!-- phone navbar ends here -->
+
+             <!-- laptap/navbar starts here -->
+            <ul class="hidden md:flex items-center text-[#4c4d5f] font-semibold gap-6">
+                <li class="cursor-pointer hover:text-[#00b289] md:text-sm lg:text-xl hover:translate-1.5 duration-200">Product <i class="fa-solid fa-angle-down"></i></li>
+                <li class="cursor-pointer hover:text-[#00b289] md:text-sm lg:text-xl hover:translate-1.5 duration-200">Templates <i class="fa-solid fa-angle-down"></i></li>
+                <li class="cursor-pointer hover:text-[#00b289] md:text-sm lg:text-xl hover:translate-1.5 duration-200">Pricing</li>
+                <li class="cursor-pointer hover:text-[#00b289] md:text-sm lg:text-xl hover:translate-1.5 duration-200">Reviews</li>
+               </ul>
+               
+               <div class="btns hidden md:block space-x-3">
+               <button class="uppercase bg-white border border-[#00b289] p-4 rounded-sm md:text-sm lg:text-lg cursor-pointer hover:translate-1.5 duration-200">Login</button>
+                <button class="bg-[#00b289] text-white p-4 rounded-sm hover:bg-[#00a57a] md:text-sm lg:text-lg uppercase cursor-pointer hover:translate-1.5 duration-200">Start Free</button>
+                </div>
+                <!-- laptap/navbar ends here -->
+        </nav>
+
+        <!-- bg-box start -->
+        <div class="box hidden lg:block bg-[#56b7dd22] h-[80rem] w-[80rem] -z-50 fixed -right-[22rem] -top-[18rem] rotate-[70deg]"></div>
+        <!-- bg-box end -->
+    </header>
+
+    <section class="mt-10 lg:mt-32 px-8 md:px-28">
+        <div class="flex justify-between items-center">
+            <h1 class="text-sm lg:text-3xl text-[#4c4d5f]">Plans & Pricing</h1>
+
+            <div class="flex lg:space-x-3">
+            <input type="radio" name="btn" id="btn" class="w-10">
+            <p class="text-sm lg:text-xl text-[#4c4d5f]">MONTHLY</p>
+            <input type="radio" name="btn" id="btn" class="w-10">
+            <p class="text-sm lg:text-xl text-[#4c4d5f]">YEARLY</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="flex justify-center items-center">
+    <section class="gap-4 md:gap-0 grid md:grid-cols-2 mt-20 md:space-x-6 lg:space-x-10">
+        <div class="lg:80 h-fit p-6 lg:p-12 text-[#4c4d5f] border-2 bg-white rounded-md border-gray-300 lg:w-[28rem]">
+            <h1 class="text-lg md:text-xl lg:text-2xl font-semibold my-1 md:my-3 lg:my-5">Workflow</h1>
+            <h2 class="border-b-2 font-semibold pb-5 border-[#00b289] text-lg lg:text-xl"><span>$</span><span class="lg:text-5xl md:text-3xl text-2xl mr-3">19</span>/MONTH</h2>
+                  <ul class="my-8">
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Unlimited clients & projects</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Proposals</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Contracts</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Invoicing & payments</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Clients CRM</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Projects</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Tast & Time Tracking</li>
+            <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>iOS, Android,Chrome, & Mac Apps</li>
+        </ul>
+        <span class="flex justify-center bg-[#00b289] text-white p-4 text-xs">
+                    <button class="uppercase">Start Free</button>
+                </span>
+        </div>
+  
+        <div class="lg:80 h-fit relative p-6 lg:p-12 text-[#4c4d5f] border-2 bg-white rounded-md border-gray-300 overflow-hidden lg:w-[28rem]">
+            <p class="uppercase text-white font-bold text-sm rotate-[47deg] w-48 text-center h-10 bg-[#00b289] absolute top-8 -right-13 content-center">most popular</p>
+            <h1 class="text-lg md:text-xl lg:text-2xl font-semibold my-1 md:my-3 lg:my-5">Workflow Plus</h1>
+            <h2 class="border-b-2 font-semibold pb-5 border-[#00b289] text-lg lg:text-xl"><span>$</span><span class="lg:text-5xl md:text-3xl text-2xl mr-3">29</span>/MONTH</h2>
+            <div>
+                <ul class="my-8">
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Everything in Workflow, Plus..</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>White-labelled client exprience</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Client forms and questionnaries <span class="bg-yellow-200 text-white p-1 text-xs">NEW</span></li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Workflow automations</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Subcontracting</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Calendly</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Client Portal</li>
+                    <li class="my-3 text-sm"><i class="fa-solid fa-check mx-3 text-[#00b289]"></i>Priority Support</li>
+                </ul>
+                </div>
+                <span class="flex justify-center bg-[#00b289] text-white p-4 text-xs">
+                    <button class="uppercase">Start Free</button>
+                </span>
+    </section>
+    </div>
+
+    <section class="my-20 text-xl text-center font-semibold text-[#4c4d5f]">
+        <h1>Super charge your work with add-ons.</h1>
+    </section>
+
+    <section class="mt-10 lg:mt-24 text-[#4c4d5f] space-y-4">
+
+        <div class="flex justify-center items-center">
+        <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Collaborators</p> <p class="text-sm md:text-lg">Invite other users for full account access and functionality.</p> </span>
+          <span class="text-sm mr-3 sm:mr-0 lg:text-2xl text-black">Free</span>
+        </div>
+</div>
+
+  <div class="flex justify-center items-center">
+        <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Partners</p> <p class="text-sm md:text-lg">Invite other users for full account access and company management.</p> </span>
+          <span class="text-sm lg:text-2xl text-black">$9 /Month</span>
+        </div>
+</div>
+
+  <div class="flex justify-center items-center">
+        <div class="flex justify-between items-center bg-white p-6 lg:p-6 rounded-md w-[80vw]">
+          <span> <p class="font-semibold md:text-xl text-lg lg:text-2xl">Bonsai Tax</p> <p class="text-sm md:text-lg">Track expenses, identify write-offs, and estimate quarters taxes easily.</p> </span>
+          <span class="text-sm lg:text-2xl text-black">$10 /Month</span>
+        </div>
+</div>
+    </section>
+
+
+    <section class="flex justify-center items-center mt-18 md:mt-20 lg:mt-28 ">
+        <div class="flex justify-between items-center w-[60vw] bg-[#56b7dd22] lg:p-8 rounded-md">
+        <div>
+        <h1>It's your business.</h1>
+        <h1>We're here to help it grow.</h1>
+        </div>
+
+        <button class="bg-[#00b289] text-white p-4 text-xs rounded-md cursor-pointer">Start Free</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
